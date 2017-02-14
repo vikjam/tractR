@@ -16,7 +16,6 @@ CAMBRIDGE_URL <- 'https://data.cambridgema.gov/api/views/crnm-mw9n/rows.csv?acce
 assessing     <- fread(CAMBRIDGE_URL, nrows = 10)
 assessing$id  <- 1:nrow(assessing)
 assessing$Zip <- str_pad(assessing$Zip, 5, pad = '0')
-assessing     <- data.table(assessing)
 
 assessing.geo <- getTracts(data       = assessing,
                            unique_id  = 'id',
@@ -24,6 +23,7 @@ assessing.geo <- getTracts(data       = assessing,
                            city       = 'City',
                            state      = 'State',
                            postalcode = 'Zip')
+
 print(assessing.geo)
 ```
 | id|submit.addr                                             |match    |quality   |result.addr                                    |lat.lon             |  tiger.id|side | state| county|  tract| block|
