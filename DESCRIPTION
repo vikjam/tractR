@@ -1,0 +1,26 @@
+Package: tractR
+Title: Wrapper for the U.S. Census Batch Geocoder
+Version: 0.0.0.9000
+Authors@R: person("Vikram", "Jambulapati", email = "vikjam@mit.edu", role = c("aut", "cre"))
+Description: tractR provides a simple interface to interact with the U.S.
+    Census Batch Geocoder. In particular, the U.S. Census Batch Gecoder restricts
+    submissions to 10,000 addresses per call and requires addresses to be formatted
+    in a particular order. tractR helps split your data into 10,000 address pieces
+    and puts together the API call to the Geocoder.
+Depends:
+    R (>= 3.3.2)
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    data.table,
+    dplyr,
+    dtplyr,
+    pbapply,
+    stringr
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1

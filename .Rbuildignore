@@ -1,0 +1,8 @@
+^\.
+^cran-comments\.md$
+^NEWS\.md$
+^/src$
+^.*\.Rproj$
+^\.Rproj\.user$
+^assets\.png
+^assets\.ai
