@@ -6,11 +6,13 @@ Simple R Wrapper for the [Census Batch Geocoder API](https://geocoding.geo.censu
 ### Installation
 Using the R package [`devtools`](https://www.rstudio.com/products/rpackages/devtools/), you can easily install `bcstatsR`.
 ```{r}
-devtools::install_github('vikjam/bcstatsR')
+devtools::install_github('vikjam/tractR')
 ```
 
 ### Use
 ```{r}
+library(data.table)
+library(stringr)
 library(tractR)
 CAMBRIDGE_URL <- 'https://data.cambridgema.gov/api/views/crnm-mw9n/rows.csv?accessType=DOWNLOAD&bom=true'
 assessing     <- fread(CAMBRIDGE_URL, nrows = 10)

@@ -8,6 +8,9 @@
 #' @param state The state for the address
 #' @param postalcode The postal code for the address
 #' @keywords geocding, census, api
+#' @importFrom data.table fread data.table
+#' @importFrom pbapply pblapply
+#' @importFrom httr POST upload_file content
 #' @export
 
 getTracts <- function(data, unique_id, address, city, state, postalcode) {
