@@ -6,7 +6,7 @@ Simple R Wrapper for the [Census Batch Geocoder API](https://geocoding.geo.censu
 [![Travis-CI Build Status](https://travis-ci.org/vikjam/tractR.svg?branch=master)](https://travis-ci.org/vikjam/tractR)
 
 ### Installation
-Using the R package [`devtools`](https://www.rstudio.com/products/rpackages/devtools/), you can easily install `bcstatsR`.
+Using the R package [`devtools`](https://www.rstudio.com/products/rpackages/devtools/), you can easily install `tractR`.
 ```{r}
 devtools::install_github('vikjam/tractR')
 ```

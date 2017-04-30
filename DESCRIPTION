@@ -18,7 +18,8 @@ Imports:
 Suggests:
     knitr,
     rmarkdown,
-    stringr
+    stringr,
+    testthat
 VignetteBuilder: knitr
 License: MIT + file LICENSE
 Encoding: UTF-8
