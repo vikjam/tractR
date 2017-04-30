@@ -4,6 +4,5 @@
 ^/src$
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^assets\.png
-^assets\.ai
+^assets$
 ^docs$

@@ -1,7 +1,7 @@
 # tractR
 Simple R Wrapper for the [Census Batch Geocoder API](https://geocoding.geo.census.gov/geocoder/)
 
-![tractR](assets/tractR.png?raw=true "tractR")
+![tractR](https://raw.githubusercontent.com/vikjam/tractR/master/assets/tractR.png "tractR")
 
 [![Travis-CI Build Status](https://travis-ci.org/vikjam/tractR.svg?branch=master)](https://travis-ci.org/vikjam/tractR)
 

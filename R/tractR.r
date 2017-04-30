@@ -11,6 +11,7 @@
 #' @importFrom data.table fread data.table
 #' @importFrom pbapply pblapply
 #' @importFrom httr POST upload_file content
+#' @importFrom utils read.table write.table
 #' @export
 
 getTracts <- function(data, unique_id, address, city, state, postalcode) {
