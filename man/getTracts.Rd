@@ -25,3 +25,4 @@ This function allows you to submit batch geocoders
 \keyword{api}
 \keyword{census,}
 \keyword{geocding,}
+

@@ -1,4 +1,5 @@
 test_that('getTracts returns data.table object', {
+    library(stringr)
     CAMBRIDGE_URL <- 'https://data.cambridgema.gov/api/views/crnm-mw9n/rows.csv?accessType=DOWNLOAD&bom=true'
     assessing     <- fread(CAMBRIDGE_URL, nrows = 10)
     assessing$id  <- 1:nrow(assessing)
