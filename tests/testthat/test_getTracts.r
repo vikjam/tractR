@@ -13,6 +13,6 @@ test_that('getTracts returns data.table object', {
                                state      = 'State',
                                postalcode = 'Zip')
 
-    expect_is(assessing.geo, 'data.table') 
+    expect_is(assessing.geo, 'data.frame') 
 })
 
